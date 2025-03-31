@@ -219,7 +219,7 @@ def generate_aleo_proof(badge_name):
         # Check if Leo verified successfully
         if "• true" in result.stdout:
             username = st.session_state.get("username", "UnknownUser")
-            timestamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+            timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
 
             # Format a clean, readable proof
             clean_proof = (
