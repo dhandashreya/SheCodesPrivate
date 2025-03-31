@@ -1,3 +1,5 @@
 streamlit
 google-generativeai
-I am good at Maths and  problem solving, what career should i choose
+python-dotenv
+Pillow
+google-api-core
