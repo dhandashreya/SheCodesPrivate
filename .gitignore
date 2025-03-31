@@ -1,2 +1,4 @@
 .env
 aleo_contract/.env
+streamlit_app/venv/
+
